@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo.jpg" alt="myflower.com">
+        </div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        <ul id="navbar-ul">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="content">
+            <h1 class="h-primary">Welcome to my online flowershop</h1>
+            <p>I'm not a regular flower, I'm a cool flower. Nature's colorful embrace.</p>
+            <p>Your garden of dreams.</p>
+            <button class="btn">Order now</button>
+        </div>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/bq1.avif" alt="Flower ordering">
+                <h2 class="h-secondary center">Flower ordering</h2>
+                <p class="center">
+                    Flowers have long been associated with love due to their vibrant red color, which symbolizes passion and strong emotions.
+                    A rose is a type of shrub, known all over the world for its beauty. Order now to express your care and love.
+                </p>
+            </div>
+            <div class="box">
+                <img src="img/bq2.jpg" alt="Bouquet ordering">
+                <h2 class="h-secondary center">Bouquet ordering</h2>
+                <p class="center">
+                    Flowers have long been associated with love due to their vibrant red color, which symbolizes passion and strong emotions.
+                    A rose is a type of shrub, known all over the world for its beauty. Order now to express your care and love.
+                </p>
+            </div>
+            <div class="box">
+                <img src="img/bq3.jpg" alt="Customized bouquet ordering">
+                <h2 class="h-secondary center">Customized bouquet ordering</h2>
+                <p class="center">
+                    Flowers have long been associated with love due to their vibrant red color, which symbolizes passion and strong emotions.
+                    A rose is a type of shrub, known all over the world for its beauty. Order now to express your care and love.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-items">
+                <img src="img/cl1.png" alt="Apple">
+            </div>
+            <div class="client-items">
+                <img src="img/cl2.webp" alt="Microsoft">
+            </div>
+            <div class="client-items">
+                <img src="img/cl3.png" alt="Google">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="form-group center">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            &copy; 2024 www.Myflower.com. All rights reserved!
+        </div>
+    </footer>
+
+    <script src="script.js">  document.getElementById("menu-toggle").addEventListener("click", function() {
+        document.getElementById("navbar-ul").classList.toggle("showing");
+    });</script>
+
+</body>
+</html>
